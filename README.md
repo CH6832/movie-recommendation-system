@@ -66,7 +66,6 @@ The final phase involves reporting the findings and performance of the recommend
 
     .
     ├── data/ - Directory for storing all datasets.
-    │   ├── final_holdout_test/ - Contains the final holdout test set.
     │   ├── processed/ - Contains preprocessed data used for modeling.
     │   └── raw/ - Contains raw, unprocessed datasets.
     ├── model/ - Directory for storing the trained machine learning models and related outputs.
