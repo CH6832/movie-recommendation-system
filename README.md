@@ -65,14 +65,11 @@ The final phase involves reporting the findings and performance of the recommend
 ## Content Overview
 
     .
-    ├── .Rproj.user - RStudio-specific project settings.
-    ├── .Rprofile - R configuration settings for the project.
     ├── data/ - Directory for storing all datasets.
     │   ├── final_holdout_test/ - Contains the final holdout test set.
     │   ├── processed/ - Contains preprocessed data used for modeling.
     │   └── raw/ - Contains raw, unprocessed datasets.
     ├── model/ - Directory for storing the trained machine learning models and related outputs.
-    ├── renv/ - Directory for managing R package dependencies.
     ├── reports/ - Contains generated reports, including the final report.
     ├── scripts/ - Directory for storing all R scripts for the project.
     │   ├── data_preprocessing.R - Script for cleaning and preprocessing the dataset.
@@ -82,13 +79,9 @@ The final phase involves reporting the findings and performance of the recommend
     │   ├── ml_model_training.R - Script for training the machine learning model.
     │   ├── ml_model_validation.R - Script for evaluating the model and generating performance metrics.
     │   └── utils.R - Utility functions used across scripts.
-    ├── .RData - Stores the current workspace data for the project.
-    ├── .Rhistory - Command history for the R session.
-    ├── .Rprofile - R configuration settings for the project.
     ├── LICENSE - Project license file.
     ├── movie-recommendation-system.Rproj - R project file.
     ├── README.md - Project documentation in Markdown format.
-    ├── renv/ - Directory for managing R package dependencies.
     └── renv.lock - Lockfile for the R environment.
 
 ## Open the Project
